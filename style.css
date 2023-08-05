@@ -1,0 +1,119 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: sans-serif; 
+    transition: 0.2s all linear;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+span, a {
+    display: inline-block;
+}
+.all {
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.450), rgba(0, 0, 0, 0.450)),
+                  url("img/1293106.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.all-new {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.450), rgba(0, 0, 0, 0.450)),
+                  url("img/349969.jpg");
+}
+.cont {
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100px;
+    box-shadow: inset 0 0 50px 15px;
+    background-image: url("img/evening-sky-sunset-sky-heavenly-blue-colored-sky-and-cloud-background-vector-drawing-clouds-sign-funny-cartoon-cloudy-heaven-cloudscape-air-stroke-border-pattern-panorama-signs-700-220740829.jpg");
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 412px;
+    cursor: pointer;
+}
+.cont-new {
+    background-image: url("img/heavenly-blue-colored-sky-and-cloud-background-vector-drawing-clouds-sign-funny-cartoon-cloudy-heaven-cloudscape-air-stroke-border-pattern-panorama-signs-700-222005460.jpg");
+}
+.cir {
+    background-color: rgba(255, 213, 149, 0.347);
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    transform: translateX(-70%);
+    background-image: url("img/rinGgMaqT-removebg-preview.png");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(3px);
+}
+.cir-new {
+    transform: translateX(70%);
+    background-image: url("img/del.webp");
+}
+.bt {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+}
+.spn, .link {
+    color: #000;
+    text-shadow: 0 10px 10px #fff;
+    font-size: 12px;
+}
+.spn-new, .link-new {
+    color: #fff;
+    text-shadow: 0 10px 10px #000;
+}
+@media(max-width: 900px) {
+    .cont {
+        margin-left: 100px;
+    }
+    .all {
+        padding: 100px;
+    }
+}
+@media(max-width: 700px) {
+    .all {
+        padding: 30px;
+        background-size: 1000px;
+        background-position: top;
+    }
+    .cont {
+        transform: scale(.8);
+    }
+}
+@media(max-width: 600px) {
+    .all {
+        background-size: cover;
+        padding: 10px;
+    }
+    .cont {
+        margin: 0;
+        transform: scale(.5);
+    }
+}
+@media(max-width: 460px) {
+    .all {
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        background-size: cover;
+    }
+    .cont {
+        margin: 0;
+        padding: 0;
+        transform: scale(.5);
+    }
+}
