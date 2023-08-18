@@ -13,6 +13,7 @@ let circle = document.querySelector('.cir');
 let all = document.querySelector('.all');
 let span = document.querySelector('.spn');
 let link = document.querySelector('.link');
+var icon = document.getElementById("favicon");
 
 button.addEventListener('click', function(){
     button.classList.toggle('cont-new')

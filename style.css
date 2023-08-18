@@ -24,6 +24,7 @@ span, a {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
+    text-align: center;
 }
 .all-new {
     background-image: linear-gradient(rgba(0, 0, 0, 0.450), rgba(0, 0, 0, 0.450)),
@@ -40,7 +41,6 @@ span, a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-left: 412px;
     cursor: pointer;
 }
 .cont-new {
